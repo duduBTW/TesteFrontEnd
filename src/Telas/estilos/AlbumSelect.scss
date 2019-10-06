@@ -1,0 +1,73 @@
+@media screen and (min-width: 990px) {
+    .albumMusica{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        .albumInfosConteiner{
+            padding-top: 20px;
+            display: flex;
+            width: 97vw;
+        } 
+        .itens{
+            cursor: pointer;
+            border: 1px solid grey;
+            margin: 10px;
+            display: flex;
+            width: 47%;
+        }
+        .itens:hover{
+            background-color: rgba(128, 128, 128, 0.11);
+        }
+    }
+}
+@media screen and (max-width: 990px) {
+    .albumMusica{
+        display: flex;
+        flex-direction: column;
+        .albumInfosConteiner{
+            padding-top: 20px;
+            display: flex;
+        } 
+        .itens{
+            cursor: pointer;
+            border-top: 1px solid grey;
+            display: flex;
+        }
+        .itens:hover{
+            background-color: rgba(128, 128, 128, 0.11);
+        }
+    }
+}
+
+.img{
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.musicaInfos{
+    .titulo{
+        padding: 0px 0px 0px 10px;
+        font-size: 30px;
+    }
+    .preco{
+        font-size: 30px;
+        padding: 5px 0px 10px 10px;
+        color: green;
+    }
+}
+
+.button{
+    width: 400px;
+} 
+
+.error{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

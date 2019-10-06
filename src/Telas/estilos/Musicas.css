@@ -1,0 +1,46 @@
+.conteiner .itens {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 992px) {
+  .conteiner .itens {
+    border: 1px solid grey;
+    margin: 10px 360px 5px 20px;
+  }
+  .conteiner .itens:hover {
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .conteiner .itens {
+    border-top: 1px solid grey;
+  }
+  .conteiner .itens:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+  }
+}
+
+.conteiner .error {
+  width: 100vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=Musicas.css.map */

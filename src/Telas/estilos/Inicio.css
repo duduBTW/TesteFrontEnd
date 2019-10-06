@@ -1,0 +1,62 @@
+.pesquisa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.conteinerInicio form {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20vh;
+}
+
+.conteinerInicio form .pesquisa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (min-width: 992px) {
+  .conteinerInicio .input-field {
+    width: 380px;
+  }
+  .conteinerInicio .pesquisarBtn {
+    margin: 10px 0px 0px 20px;
+  }
+  .conteinerInicio .pesquisarBtn i {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .conteinerInicio form .pesquisa {
+    width: 350px;
+  }
+  .conteinerInicio form .pesquisa .input-field {
+    width: 300px;
+  }
+  .conteinerInicio form .pesquisa .pesquisarBtn {
+    margin: 10px 0px 0px 20px;
+  }
+  .conteinerInicio form .pesquisa .pesquisarBtn i {
+    margin-left: qpx;
+  }
+}
+/*# sourceMappingURL=Inicio.css.map */

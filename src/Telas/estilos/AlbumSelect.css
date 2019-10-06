@@ -1,0 +1,106 @@
+@media screen and (min-width: 990px) {
+  .albumMusica {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .albumMusica .albumInfosConteiner {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 97vw;
+  }
+  .albumMusica .itens {
+    cursor: pointer;
+    border: 1px solid grey;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 47%;
+  }
+  .albumMusica .itens:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .albumMusica {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .albumMusica .albumInfosConteiner {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .albumMusica .itens {
+    cursor: pointer;
+    border-top: 1px solid grey;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .albumMusica .itens:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+  }
+}
+
+.img {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.musicaInfos .titulo {
+  padding: 0px 0px 0px 10px;
+  font-size: 30px;
+}
+
+.musicaInfos .preco {
+  font-size: 30px;
+  padding: 5px 0px 10px 10px;
+  color: green;
+}
+
+.button {
+  width: 400px;
+}
+
+.error {
+  width: 100vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=AlbumSelect.css.map */

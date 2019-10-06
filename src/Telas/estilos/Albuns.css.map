@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,gBADY,CACZ,YAAY,CAAA;EACR,MAAM,EAAE,IAAI;CACf;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EALvC,AAMQ,gBANQ,CAMR,YAAY,CAAA;IACR,YAAY,EAAE,KAAK;GACtB",
+    "sources": [
+        "Albuns.scss"
+    ],
+    "names": [],
+    "file": "Albuns.css"
+}

@@ -1,0 +1,102 @@
+.conteinerMusica{
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 992px) {
+        .musicaInfosConteiner{
+            padding-top: 20px;
+            display: flex;
+            .musicaInfos{
+                .titulo{
+                    padding: 10px 0px 0px 10px;
+                    font-size: 30px;
+                }
+                .preco{
+                    font-size: 30px;
+                    padding: 5px 0px 10px 10px;
+                    color: green;
+                }
+            }
+            .img{
+                padding: 10px;
+                max-height: 150px;
+                max-width: 150px;
+            }
+        }
+        .muscaInfos2{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            border-top: 1px rgba(128, 128, 128, 0.575) solid;
+            border-bottom: 1px rgba(128, 128, 128, 0.575) solid;
+        }
+        .previw{
+            padding-bottom: 20px;
+        }
+
+        .voltar{
+                display: flex;
+                width: 100vw;
+                align-items: center;
+                justify-content: center;
+            button{
+                width: 400px;
+            }
+        }
+        
+    }
+
+    @media screen and (min-width: 992px) {
+        .musicaInfosConteiner{
+            padding-top: 20px;
+            display: flex;
+            .musicaInfos{
+                .titulo{
+                    padding: 10px 0px 0px 10px;
+                    font-size: 30px;
+                    width: 45vmax;
+                }
+                .preco{
+                    font-size: 30px;
+                    padding: 5px 0px 10px 10px;
+                    color: green;
+                }
+            }
+            .img{
+                padding: 10px;
+                max-height: 150px;
+                max-width: 150px;
+            }
+        }
+        .muscaInfos2{
+            position: fixed;
+            width: 40vw;
+            margin-top: 30px;
+            right: 2%;
+            padding: 20px;
+            font-size: 20px;
+            border: 1px rgba(128, 128, 128, 0.575) solid;
+        }
+        .previw{
+            margin-top: 60px;
+            padding-bottom: 20px;
+        }
+
+        .voltar{
+                display: flex;
+                width: 100vw;
+                align-items: center;
+                justify-content: center;
+            button{
+                width: 400px;
+            }
+        }
+    }
+}
+.error{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

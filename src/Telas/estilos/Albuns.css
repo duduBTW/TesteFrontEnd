@@ -1,0 +1,10 @@
+.conteinerAlbuns .itensAlbuns {
+  margin: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .conteinerAlbuns .itensAlbuns {
+    margin-right: 360px;
+  }
+}
+/*# sourceMappingURL=Albuns.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;EAGf,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;CAGnB",
+    "sources": [
+        "Artista.scss"
+    ],
+    "names": [],
+    "file": "Artista.css"
+}

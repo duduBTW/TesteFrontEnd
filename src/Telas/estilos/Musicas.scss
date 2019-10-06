@@ -1,0 +1,33 @@
+.conteiner{
+    .itens{
+        cursor: pointer;
+        display: flex; 
+        transition: 0.2s;
+    }
+
+    @media screen and (min-width: 992px) {
+        .itens{
+            border: 1px solid grey;
+            margin: 10px 360px 5px 20px;
+            }
+        .itens:hover{
+            background-color: rgba(128, 128, 128, 0.185);
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .itens{
+            border-top: 1px solid grey
+        }
+        .itens:hover{
+            background-color: rgba(128, 128, 128, 0.11);
+        }
+    }
+    .error{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

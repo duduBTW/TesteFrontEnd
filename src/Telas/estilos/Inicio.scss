@@ -1,0 +1,47 @@
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteinerInicio{
+    form{
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vh;
+        .pesquisa{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .input-field{
+                width: 380px;
+            }
+            .pesquisarBtn{
+                margin: 10px 0px 0px 20px;
+                i{
+                    margin-left: 2px;
+                }
+            }
+    }
+    
+    @media screen and (max-width: 992px) {
+        form{
+            .pesquisa{
+                width: 350px;
+                .input-field{
+                    width: 300px;
+                }
+                .pesquisarBtn{
+                    margin: 10px 0px 0px 20px;
+                    i{
+                        margin-left: qpx;
+                    }
+                }
+            }
+        }
+    }
+}
