@@ -10,6 +10,9 @@
             display: flex;
             width: 97vw;
         } 
+        .button{
+            width: 400px;
+        }
         .itens{
             cursor: pointer;
             border: 1px solid grey;
@@ -19,7 +22,7 @@
         }
         .itens:hover{
             background-color: rgba(128, 128, 128, 0.11);
-        }
+        }   
     }
 }
 @media screen and (max-width: 990px) {
@@ -30,6 +33,10 @@
             padding-top: 20px;
             display: flex;
         } 
+        .button{
+            max-width: 100vh;
+            min-width: 100%;
+        }
         .itens{
             cursor: pointer;
             border-top: 1px solid grey;
@@ -58,10 +65,6 @@
         color: green;
     }
 }
-
-.button{
-    width: 400px;
-} 
 
 .error{
     width: 100vw;

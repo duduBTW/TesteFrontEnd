@@ -23,6 +23,9 @@
     display: flex;
     width: 97vw;
   }
+  .albumMusica .button {
+    width: 400px;
+  }
   .albumMusica .itens {
     cursor: pointer;
     border: 1px solid grey;
@@ -53,6 +56,10 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .albumMusica .button {
+    max-width: 100vh;
+    min-width: 100%;
+  }
   .albumMusica .itens {
     cursor: pointer;
     border-top: 1px solid grey;
@@ -80,10 +87,6 @@
   font-size: 30px;
   padding: 5px 0px 10px 10px;
   color: green;
-}
-
-.button {
-  width: 400px;
 }
 
 .error {
